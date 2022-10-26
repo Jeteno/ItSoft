@@ -1,0 +1,43 @@
+.header__menu-burger {
+   height: 914px;
+   position: fixed;
+   z-index: 100;
+   width: 100%;
+   background: #E5E5E5;
+   left: -100%;
+   transition: left 0.3s ease 0s;
+   .menu-burger-ikon__conteiner{
+      @extend %flexCenter;
+      margin-top: 31px;
+   }
+   .menu-burger__fon{
+      background: url("/Users/user/Desktop/ITSOFT/img/header/menu-burger/menu-burger__fon.svg") 0 0 / 100% no-repeat;
+   }
+   .menu-burger__conteiner {
+      .menu-burger__ul {
+         left: 0px;
+         .menu-burger__list {
+            .menu-burger__item {
+               margin-bottom: 93px;
+               &:first-child{
+                  padding-top: 154px;
+               }
+               &:last-child{
+                  margin-bottom: 104px;
+               }
+               .menu-burger__link {
+                  @extend %advantages__title;
+                  color: black;
+                  &:hover{
+                     color: #771373;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+.header__menu-burger._active{
+   left: 0;
+}

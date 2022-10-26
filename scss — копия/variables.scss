@@ -1,0 +1,85 @@
+%font__Roboto {
+   font-family: 'Roboto';
+   font-style: normal;
+}
+%font__Merriweather{
+   font-family: 'Merriweather';
+   font-style: normal;
+}
+
+%advantages__title{
+   @extend %font__Merriweather;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 154.8%;
+   color: #242424;
+}
+
+%title__h2 {
+   @extend %font__Merriweather;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 120%;
+   color: #000000;
+}
+
+%subtitle__p {
+   @extend %font__Roboto;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 154.8%;
+   color: #777777;
+}
+
+%title__table {
+   @extend %font__Roboto;
+   font-weight: 300;
+   font-size: 30px;
+   line-height: 100%;
+   color: #000000;
+}
+
+%link {
+   @extend %font__Roboto;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-decoration-line: underline;
+   color: #590D56;
+}
+
+%title__h3{
+   @extend %font__Roboto;
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 100%;
+   color: #FFFFFF;
+}
+
+%footer__title-top{
+   @extend %font__Roboto;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 100%;
+   color: #7A7A7A;
+   text-decoration: none;
+}
+
+%footer__title-bottom{
+   @extend %font__Roboto;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 130%;
+   color: #828282;
+}
+
+%flexCenter{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+%flexTop{
+   display: flex;
+   align-items: flex-start;
+}

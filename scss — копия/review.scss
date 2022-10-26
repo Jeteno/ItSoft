@@ -1,0 +1,32 @@
+.reviews__conteiner {
+   .reviews__content {
+      display: flex;
+      justify-content: space-between;
+      .review__text {
+         .review__title {
+            @extend %title__h2;
+            margin-bottom: 26px;
+         }
+         .review__subtitle {
+            @extend %subtitle__p;
+         }
+      }
+      .review__gallery {
+         .review__slider {
+            .review__slides {
+               position: relative;
+               .review__slides-video {
+               }
+               .review-video__btn {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  .review-video__btn-play {
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+

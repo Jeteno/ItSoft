@@ -1,0 +1,35 @@
+.header {
+  .header__content {
+    position: fixed;
+    z-index: 50;
+    min-height: 132px;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    background-color: #E5E5E5;
+    .header__conteiner{
+      display: flex;
+      margin-top: 31px;
+      align-items: center;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      .menu {
+        padding: 5px 0px;
+        .menu__list {
+          flex-wrap: wrap;
+          display: flex;
+          .menu__item{
+            &:not(:last-child){
+              margin: 0px 21px 0px 0px;
+            }
+            .menu__link{
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+ }

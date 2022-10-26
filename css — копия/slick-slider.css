@@ -1,0 +1,96 @@
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+   overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+   display: flex;
+   align-items: flex-start;
+}
+/* Слайд */
+.slick-slide{
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+.production__slider{
+   position: relative;
+   max-width: 458px;
+   margin-right: 28px;
+}
+
+.production__slider-arows .slick-arrow {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 68px;
+   height: 68px;
+   font-size: 0;
+}
+
+.production__slider-arows .slick-arrow.slick-prev {
+   background: url('/Users/user/Desktop/ITSOFT/img/production/slider/arows/left.svg')  0 0 / 100% no-repeat;
+   margin-bottom: 28px;
+}
+
+.production__slider-arows .slick-arrow.slick-next {
+   background: url('/Users/user/Desktop/ITSOFT/img/production/slider/arows/right.svg') 0 0 / 100% no-repeat;
+}
+
+/*--------------------review__slider-----------------*/
+
+.review__slider {
+   max-width: 847px;
+}
+
+.review__slider .slick-dots{
+   display: flex;
+   margin-top: 30px;
+}
+.review__slider .slick-dots li{
+   list-style: none;
+   margin-right: 16px;
+   width: 16px;
+   height: 16px;
+   border: 1px solid;
+   border-color: #47093E;
+   border-radius: 50%;
+   transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.review__slider .slick-dots li.slick-active{
+   background-color: #590D56;
+   border-color: #590D56;
+}
+
+.review__slider .slick-dots  button{
+   font-size: 0;
+   
+}

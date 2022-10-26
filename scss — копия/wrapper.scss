@@ -1,0 +1,12 @@
+.wrapper{
+   min-width: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   ._conteiner{
+      max-width: 1140px;
+      margin: 0px auto;
+      padding: 0px 15px;
+      box-sizing: content-box;
+   }
+}

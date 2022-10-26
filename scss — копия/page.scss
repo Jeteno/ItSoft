@@ -1,0 +1,33 @@
+.page {
+   flex: 1 1 auto;
+   margin-top: 132px;
+   background-image: url("/Users/user/Desktop/ITSOFT/img/main-block/background/Vector1.png");
+   background-repeat: no-repeat;
+   .page__main-block {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+   }
+   .page__advantages-block{
+   }
+   .page__production {
+      background: url("/Users/user/Desktop/ITSOFT/img/production/fon/production-fon.png");
+      background-repeat: no-repeat;
+      position: relative;
+      height: 858px;
+      top: -50px;
+      left: 0px;
+   }
+   .page__reviews {
+   }
+   .page__information {
+      background-image: url("/Users/user/Desktop/ITSOFT/img/information/fon/fon.svg");
+      background-repeat: no-repeat;
+      position: relative;
+      height: 857px;
+      top: 0px;
+      left: 0px;
+   }
+   .page__purchase {
+   }
+  }

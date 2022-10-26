@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ITSOFT</title>
+   <link rel="stylesheet" href="/Users/user/Desktop/ITSOFT/css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="/Users/user/Desktop/ITSOFT/css/itsoft.css">
+   <link rel="stylesheet" href="/Users/user/Desktop/ITSOFT/css/itSoftFonts.css">
+   <link rel="stylesheet" href="/Users/user/Desktop/ITSOFT/css/slick-slider.css">
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__content">
+            <div class="header__conteiner _conteiner">
+               <div class="header__logo">
+                  <a id="main-block-logo" class="header__logo-a" href="#main-block">
+                     <img class="header__logo-img" src="/Users/user/Desktop/ITSOFT/img/header/logo/Group.svg" alt="logo">
+                  </a>
+               </div>
+               <nav class="header__memu menu">
+                  <ul class="menu__list">
+                     <li class="menu__item">
+                        <a class="menu__link" href="#">
+                           <img class="menu__img" src="/Users/user/Desktop/ITSOFT/img/header/menu/Search.svg" alt="Search">
+                        </a>
+                     </li>
+                     <li class="menu__item">
+                        <a id="purchase-menu-item" class="menu__link" href="#">
+                           <img class="menu__img" src="/Users/user/Desktop/ITSOFT/img/header/menu/map.svg" alt="Map">
+                        </a>
+                     </li>
+                     <li class="menu__item">
+                        <span class="menu__link menu-burger-open" href="">
+                           <img class="menu__img" src="/Users/user/Desktop/ITSOFT/img/header/menu/menu.svg" alt="Menu">
+                        </span>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+         <div class="header__menu-burger menu-burger">
+            <div class="menu-burger-ikon__conteiner _conteiner">
+               <div class="header__logo">
+                  <a id="main-block-burger" class="header__logo-a" href="#">
+                     <img class="header__logo-img" src="/Users/user/Desktop/ITSOFT/img/header/logo/Group.svg" alt="logo">
+                  </a>
+               </div>
+               <div class="header__item">
+                  <span class="menu__link menu-burger-close" href="">
+                     <img class="menu__img" src="/Users/user/Desktop/ITSOFT/img/header/menu-burger/ikon.svg" alt="Menu">
+                  </span>
+               </div>
+            </div>
+            <div class="menu-burger__fon">
+               <div class="menu-burger__conteiner _conteiner">
+                  <nav class="menu-burger__ul">
+                     <ul class="menu-burger__list">
+                        <li class="menu-burger__item">
+                           <a data-goto=".purchase__conteiner" class="menu-burger__link" href="#">
+                              Где купить
+                           </a>
+                        </li>
+                        <li class="menu-burger__item">
+                           <a data-goto=".advantages-block__conteiner" class="menu-burger__link" href="#">
+                              О препарате
+                           </a>
+                        </li>
+                        <li class="menu-burger__item">
+                           <a data-goto=".information__conteiner" class="menu-burger__link" href="#">
+                              О варикозе
+                           </a>
+                        </li>
+                        <li class="menu-burger__item">
+                           <a class="menu-burger__link" href="#">
+                              Решение
+                           </a>
+                        </li>
+                        <li class="menu-burger__item">
+                           <a data-goto=".production__conteiner" class="menu-burger__link" href="#">
+                              Специалистам
+                           </a>
+                        </li>
+                        <li class="menu-burger__item">
+                           <a class="menu-burger__link" href="#">
+                              Геморрой
+                           </a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>   
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <div class="page__main-block main-block _conteiner">
+            <div class="main-block__conteiner">
+               <div class="main-block__body">
+                  <h1 class="main-block__title">
+							НАДЕЖНЫЙ ПОМОЩНИК В ЛЕЧЕНИИ ВАРИКОЗА
+						</h1>
+                  <div class="main-block__items">
+                     <a id="information" class="main-block__item item-main-blok" href="#">
+                        <div class="item-main-blok__icons">
+                           <img class="item-main-blok__icon" src="/Users/user/Desktop/ITSOFT/img/main-block/icon/play.svg" alt="">
+                        </div>
+                        <div class="item-main-blok__body">
+                           <div class="item-main-blok__title">
+                              Схема приема
+                           </div>
+                        </div>
+                     </a>
+                     <a id="information" class="main-block__item item-main-blok" href="#">
+                        <div class="item-main-blok__icons">
+                           <img class="item-main-blok__icon"src="/Users/user/Desktop/ITSOFT/img/main-block/icon/download.svg" alt="">
+                        </div>
+                        <div class="item-main-blok__body">
+                           <div class="item-main-blok__title">
+                              Инструкция
+                           </div>
+                        </div>
+                     </a>
+                     <a id="purchase-main" class="main-block__item item-main-blok" href="#">
+                        <div class="item-main-blok__icons">
+                           <img class="item-main-blok__icon" src="/Users/user/Desktop/ITSOFT/img/main-block/icon/map.svg" alt="">
+                        </div>
+                        <div class="item-main-blok__body">
+                           <div class="item-main-blok__title">
+                              Где купить
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="main-block__slider ">
+               <div class="swiper__conteiner">
+                  <div class="main-block-slider__wrapper swiper__wrapper">
+                     <div class="main-block-slider__slide swiper__slide">
+                        <div class="main-block-slider__image">
+                           <img src="/Users/user/Desktop/ITSOFT/img/main-block/slider/slider-1.png" alt="Картинка">
+                        </div>
+                     </div>
+                     <div class="main-block-slider__slide swiper__slide">
+                        <div class="main-block-slider__image">
+                           <img src="/Users/user/Desktop/ITSOFT/img/main-block/slider/slider-2.png" alt="Картинка">
+                        </div>
+                     </div>
+                     <div class="main-block-slider__slide swiper__slide">
+                        <div class="main-block-slider__image">
+                           <img src="/Users/user/Desktop/ITSOFT/img/main-block/slider/slider-3.png" alt="Картинка">
+                        </div>
+                     </div>
+                     <div class="main-block-slider__slide swiper__slide">
+                        <div class="main-block-slider__image">
+                           <img src="/Users/user/Desktop/ITSOFT/img/main-block/slider/slider-4.png" alt="Картинка">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="main-block__arows">
+                  <a class="prew _itsoft-Frame-1" onclick="previousSlide()"></a>
+                  <a class="next _itsoft-Frame-2" onclick="nextSlide()"></a>
+               </div>
+               <div class="main-block__button">
+                  <div class="main-block__btn _btn">
+                     <a href="#" id="purchase-btn" class="main-block__link ">
+                        <button class="btn _link">
+                           Где купить >
+                        </button>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page__line-block">
+            <div class="line-block__conteiner">
+               <div class="line-block__body">
+                  <h1 class="line-block__title">
+                     <span>получить скидку 10% >>>получить скидку 10% >>>получить скидку 10% >>> </span>
+                  </h1>
+               </div>
+            </div>
+         </div>
+         <div class="page__advantages-block _conteiner">
+            <div class="advantages-block__conteiner">
+               <div class="advantages-block__body">
+                  <div class="advantages-block__items">
+                     <div class="advantages-block__item item-advantages-blok">
+                        <div class="item-advantages-blok__icons">
+                           <img class="item-advantages-blok__icon" src="/Users/user/Desktop/ITSOFT/img/advantages/advantages-1.svg" alt="">
+                        </div>
+                        <div class="item-advantages-blok__body">
+                           <div class="item-advantages-blok__title">
+                              Доказанная <br> эффективность                           
+                           </div>
+                        </div>
+                     </div>
+                     <div class="advantages-block__item item-advantages-blok">
+                        <div class="item-advantages-blok__icons">
+                           <img class="item-advantages-blok__icon" src="/Users/user/Desktop/ITSOFT/img/advantages/advantages-2.svg" alt="">
+                        </div>
+                        <div class="item-advantages-blok__body">
+                           <div class="item-advantages-blok__title">
+                              Новая дозировка<br>100 мг + 900 мг
+                           </div>
+                        </div>
+                     </div>
+                     <div class="advantages-block__item item-advantages-blok">
+                        <div class="item-advantages-blok__icons">
+                           <img class="item-advantages-blok__icon" src="/Users/user/Desktop/ITSOFT/img/advantages/advantages-3.svg" alt="">
+                        </div>
+                        <div class="item-advantages-blok__body">
+                           <div class="item-advantages-blok__title _itsoft-inf">
+                              Удобный прием.<br>Одна таблетка в сутки*
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="advantages-block__content">
+                     <div class="advantages-block__text">
+                        <h2 class="advantages-block__title">
+                           Комплексное <br> действие
+                        </h2>
+                        <p class="advantages-block__subtitle">
+                           Венарус показан для терапии <br> симптомов хронических <br> заболеваний вен (устранения <br>
+                           и облегчения симптомов).
+                        </p>
+                     </div>
+                     <div class="advantages-block__wrapper">
+                        <div class="advantages-block__table">
+                           <div class="advantages-table">
+                              <div class="advantages-table__links">
+                                 <a href="" class="advantages-table__link">
+                                    Подробнее >
+                                 </a>   
+                              </div>
+                              <div class="advantages-table__ikons">
+                                 <!-- <img class="advantages-table__ikon" src="/Users/user/Desktop/ITSOFT/img/advantages/table/table-1.svg" alt=""> -->
+                                 <svg class="advantages-table__ikon" width="134" height="135" viewBox="0 0 134 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="67" cy="67.0076" r="67" fill="#590D56"/>
+                                    <path id="table-1" d="M78.3316 12.8502L78.49 12.9515L78.6759 12.9234L91.9762 10.91L99.3797 22.1413L99.4832 22.2983L99.6645 22.3482L112.634 25.9186L114.829 39.1902L114.86 39.3757L115.005 39.495L125.401 48.0319L122.008 61.049L121.961 61.2309L122.045 61.399L128.07 73.4263L119.676 83.9381L119.559 84.085L119.567 84.2728L120.18 97.7108L108.236 103.9L108.069 103.986L108 104.161L103.094 116.686L89.6655 117.482L89.4778 117.493L89.3439 117.626L79.7671 127.072L67.176 122.337L67 122.271L66.824 122.337L54.2329 127.072L44.6561 117.626L44.5222 117.493L44.3345 117.482L30.9062 116.686L25.9996 104.161L25.9311 103.986L25.7641 103.9L13.8205 97.7108L14.4325 84.2728L14.4411 84.085L14.3238 83.9381L5.92995 73.4263L11.9548 61.399L12.039 61.2309L11.9916 61.049L8.599 48.0319L18.9949 39.495L19.1402 39.3757L19.1709 39.1902L21.3661 25.9186L34.3355 22.3482L34.5168 22.2983L34.6203 22.1413L42.0237 10.91L55.3241 12.9234L55.51 12.9515L55.6684 12.8502L67 5.60113L78.3316 12.8502Z" stroke="white">
+                                       <animate xlink:href="#table-1" attributeName="stroke-dashoffset" values="400; 0" dur="10s" repeatCount="indefinite" fill="freeze" calcMode="linear"/>
+                                    </path>
+                                    </svg>
+                              </div>
+                              <div class="advantages-table__text">
+                                 <h3 class="advantages-table__title">
+                                    Помогает <br> предотвратить судороги
+                                 </h3>
+                              </div>
+                           </div> 
+                        </div>
+                        <div class="advantages-block__table">
+                           <div class="advantages-table">
+                              <div class="advantages-table__links">
+                                 <a href="" class="advantages-table__link">
+                                    Подробнее >
+                                 </a>   
+                              </div>
+                              <div class="advantages-table__text righted">
+                                 <h3 class="advantages-table__title">
+                                    Способствует <br> снижению тяжести <br> в ногах
+                                 </h3>
+                              </div>
+                              <div class="advantages-table__ikons">
+                                 <img class="advantages-table__ikon" src="/Users/user/Desktop/ITSOFT/img/advantages/table/table-2.svg" alt="">
+                              </div>
+                           </div> 
+                        </div>
+                        <div class="advantages-block__table">
+                           <div class="advantages-table">
+                              <div class="advantages-table__links">
+                                 <a href="" class="advantages-table__link">
+                                    Подробнее >
+                                 </a>   
+                              </div>
+                              <div class="advantages-table__ikons">
+                                 <img class="advantages-table__ikon" src="/Users/user/Desktop/ITSOFT/img/advantages/table/table-3.svg" alt="">
+                              </div>
+                              <div class="advantages-table__text">
+                                 <h3 class="advantages-table__title">
+                                    Способствует снижению <br> болевых ощущений                                 
+                                 </h3>
+                              </div>
+                           </div> 
+                        </div>
+                        <div class="advantages-block__table">
+                           <div class="advantages-table">
+                              <div class="advantages-table__links">
+                                 <a href="" class="advantages-table__link">
+                                    Подробнее >
+                                 </a>   
+                              </div>
+                              <div class="advantages-table__text righted">
+                                 <h3 class="advantages-table__title">
+                                    Помогает <br> уменьшить отеки                                 
+                                 </h3>
+                              </div>
+                              <div class="advantages-table__ikons">
+                                 <img class="advantages-table__ikon" src="/Users/user/Desktop/ITSOFT/img/advantages/table/table-4.svg" alt="">
+                              </div>
+                           </div> 
+                        </div>
+                        <div class="advantages-block__table">
+                           <div class="advantages-table">
+                              <div class="advantages-table__links">
+                                 <a href="#" class="advantages-table__link">
+                                    Подробнее >
+                                 </a>   
+                              </div>
+                              <div class="advantages-table__ikons">
+                                 <img class="advantages-table__ikon" src="/Users/user/Desktop/ITSOFT/img/advantages/table/table-5.svg" alt="">
+                              </div>
+                              <div class="advantages-table__text">
+                                 <h3 class="advantages-table__title">
+                                    Оказывает <br> ангиопротекторное <br> и венотонизурующее <br> действие                                 
+                                 </h3>
+                              </div>
+                           </div> 
+                        </div>
+                     </div>      
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page__production">
+            <div class="production__conteiner _conteiner">
+               <div class="production__content">
+                  <div class="production__body">
+                     <div class="production__text">
+                        <h2 class="production__title">
+                           О производстве <br> Венарус
+                        </h2>
+                     </div>
+                     <div class="production__gallery">
+                        <div class="production__slider">
+                           <div class="production__slides">
+                              <img class="production__slides-img" src="/Users/user/Desktop/ITSOFT/img/production/slider/slider-1.png" alt="">
+                           </div>
+                           <div class="production__slides">
+                              <img class="production__slides-img" src="/Users/user/Desktop/ITSOFT/img/production/slider/slider-1.png" alt="">
+                           </div>
+                        </div>
+                     </div>
+                      <div class="production__slider-arows"></div> 
+                  </div>
+                  <div class="production__button" >
+                     <div class="production__btn _btn" >
+                        <a href="#" class="production__link">
+                           <button class="btn _link">
+                              Подробнее >
+                           </button>
+                        </a>
+                     </div>   
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page__reviews">
+            <div class="reviews__conteiner _conteiner">
+               <div class="reviews__content">
+                  <div class="review__text">
+                     <h2 class="review__title">
+                        Мнение <br> специалистов
+                     </h2>
+                     <p class="review__subtitle">
+                        Фармакотерапия — <br> неотъемлемый компонент <br> современного лечения <br> хронического заболевания вен.
+                     </p>
+                  </div>
+                  <div class="review__gallery">
+                     <div class="review__slider">
+                        <div class="review__slides">
+                           <video class="review__slides-video" id="video-player" poster="img/reviews/slider/reviews-slider.png" src="/Users/user/Desktop/ITSOFT/img/reviews/slider/video/reviews-video.mp4"></video>
+                           <button class="review-video__btn" id="play">
+                              <img class="review-video__btn-play" src="/Users/user/Desktop/ITSOFT/img/reviews/slider/icons/play.svg" alt="play">
+                           </button>
+                        </div>
+                        <div class="review__slides">
+                           <video class="review__slides-video" id="video-player" poster="img/reviews/slider/reviews-slider.png" src="/Users/user/Desktop/ITSOFT/img/reviews/slider/video/reviews-video.mp4"></video>
+                           <button class="review-video__btn" id="play">
+                              <img class="review-video__btn-play" src="/Users/user/Desktop/ITSOFT/img/reviews/slider/icons/play.svg" alt="play">
+                           </button>                        
+                        </div>
+                        <div class="review__slides">
+                           <video class="review__slides-video" id="video-player" poster="img/reviews/slider/reviews-slider.png" src="/Users/user/Desktop/ITSOFT/img/reviews/slider/video/reviews-video.mp4"></video>
+                           <button class="review-video__btn" id="play">
+                              <img class="review-video__btn-play" src="/Users/user/Desktop/ITSOFT/img/reviews/slider/icons/play.svg" alt="play">
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page__information">
+            <div class="information__conteiner _conteiner" id="information">
+               <div class="information__content">
+                  <div class="information__body">
+                     <div class="information__text">
+                        <h2 class="information__title">
+                           Полезная <br> информация
+                        </h2>
+                        <p class="information__subtitle">
+                           ВЕНАРУС — НАДЕЖНЫЙ ПОМОЩНИК <br> В ЛЕЧЕНИИ ВАРИКОЗА, ХРАНИТЕЛЬ <br> ЖЕНСКИХ НОГ НА ПУТИ <br> К ЕЕ МЕЧТЕ!                     
+                        </p>
+                     </div>
+                     <div class="information__grid">
+                        <div class="information-grid__body">
+                           <a href="" class="information-grid__item grid__item-1">
+                              <div class="information-grid__text">
+                                 <h3 class="information-grid__title">
+                                    Профилак- <br> тические <br> упражнения
+                                 </h3>
+                              </div>
+                           </a>
+                           <a href="#" class="information-grid__item grid__item-2">
+                              <div class="information-grid__text">
+                                 <h3 class="information-grid__title">
+                                    Диагностика <br> и способы <br> лечения
+                                 </h3>
+                              </div>
+                           </a>
+                           <a href="#" class="information-grid__item grid__item-3">
+                              <div class="information-grid__text">
+                                 <h3 class="information-grid__title">
+                                    Рекомен- <br> дации по <br> питанию 
+                                 </h3>
+                              </div>
+                           </a>
+                           <a href="#" class="information-grid__item grid__item-4">
+                              <div class="information-grid__text">
+                                 <h3 class="information-grid__title">
+                                    Факты <br> о варикозе
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="information__button" >
+                     <div class="information__btn _btn" >
+                        <a href="#" class="violet__link">
+                           <button class="btn btn-violet  _link">
+                              Подробнее >
+                           </button>
+                        </a>
+                     </div>   
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page__purchase">
+            <div class="purchase__conteiner _conteiner" id="purchase">
+               <div class="purchase__content">
+                  <div class="purchase__body">
+                     <div class="purchase__text">
+                        <h2 class="purchase__title">
+                           Где <br> купить
+                        </h2>
+                        <p class="purchase__subtitle">
+                           Ветонизирующее средство <br> ВЕНАРУС вы можете приобрести <br> в аптеках вашего города
+                        </p>
+                     </div>
+                     <div class="purchase__image">
+                        <img src="/Users/user/Desktop/ITSOFT/img/purchase/purchase-img.png" alt="" class="purchase__img">
+                     </div>
+                  </div>
+                  <div class="purchase__button" >
+                     <div class="purchase__btn _btn" >
+                        <a href="https://apteka.ru/product/venarus-100-mg--900-mg-60-sht-tabletki-pokrytye-plenochnoj-obolochkoj-615d4177e078ae3b636c0e30/" class="violet__link" target="_blank">
+                           <button class="btn btn-violet  _link">
+                              apteka.ru
+                           </button>
+                        </a>
+                        <a href="https://apteka.ru/product/venarus-100-mg--900-mg-60-sht-tabletki-pokrytye-plenochnoj-obolochkoj-615d4177e078ae3b636c0e30/" class="violet__link" target="_blank">
+                           <button class="btn btn-violet  _link">
+                              366.ru
+                           </button>
+                        </a>
+                        <a href="https://stolichki.ru/drugs/venarus-tab-p-o-1000mg-30" class="violet__link" target="_blank">
+                           <button class="btn btn-violet  _link">
+                              stolichki.ru
+                           </button>
+                        </a>
+                     </div>   
+                  </div>
+               </div>
+            </div>
+            <div class="purchase__fon">
+               <img src="/Users/user/Desktop/ITSOFT/img/purchase/fon/fon.png" alt="" class="purchase__fon-img">
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__conteiner _conteiner">
+            <div class="footer__content">
+               <div class="footer__text">
+                  <h2 class="footer__title">
+                     БИОЛОГИЧЕСКИ АКТИВНАЯ ДОБАВКА. НЕ ЯВЛЯЕТСЯ ЛЕКАРСТВОМ
+                  </h2>
+               </div>
+               <div class="footer__body">
+                  <div class="footer__grid">
+                     <div class="footer-grid__body">
+                        <div class="footer-grid__item message">
+                           <div class="footer-grid__content">
+                              <a class="footer-grid__title" href="#" style="font-family: 'Roboto'; font-style: normal; font-weight: 300;font-size: 12px;line-height: 100%; color: #7A7A7A; text-decoration: none;">
+                                 Cообщить о нежелательном явлении
+                              </a>
+                           </div>
+                        </div>
+                        <div class="footer-grid__item cookies">
+                           <div class="footer-grid__conten">
+                              <a class="footer-grid__title" href="#" style="font-family: 'Roboto'; font-style: normal; font-weight: 300;font-size: 12px;line-height: 100%; color: #7A7A7A; text-decoration: none;">
+                                 Условия пользования сайтом и файлами Cookies
+                              </a>
+                           </div>
+                        </div>
+                        <div class="footer-grid__item social">
+                           <div class="footer-grid__conten">
+                              <div class="footer-grid__social">
+                                 <a href="https://vk.com/public164562873" class="footer-grid__link link-vk" target="_blank">
+                                    <svg class="vk-svg" width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path class="path-vk" d="M31.3689 1.66406C31.5447 0.960938 31.3689 0.375 30.3142 0.375H26.8572C25.9783 0.375 25.5681 0.84375 25.3337 1.37109C25.3337 1.37109 23.5759 5.64844 21.115 8.46094C20.2947 9.22266 19.9431 9.51562 19.4744 9.51562C19.2986 9.51562 18.947 9.22266 18.947 8.51953V1.66406C18.947 0.785156 18.7126 0.375 17.9509 0.375H12.5603C11.9744 0.375 11.6814 0.785156 11.6814 1.19531C11.6814 2.01562 12.9119 2.19141 13.0291 4.53516V9.63281C13.0291 10.7461 12.8533 10.9805 12.3845 10.9805C11.2126 10.9805 8.40015 6.64453 6.70093 1.72266C6.34937 0.785156 5.9978 0.375 5.1189 0.375H1.66187C0.724365 0.375 0.48999 0.84375 0.48999 1.37109C0.48999 2.30859 1.66187 6.82031 5.93921 12.8555C8.8103 16.957 12.8533 19.125 16.4861 19.125C18.6541 19.125 18.947 18.6562 18.947 17.8359C18.947 13.9102 18.7712 13.5 19.8259 13.5C20.3533 13.5 21.2322 13.793 23.283 15.7852C25.6267 18.1289 26.0369 19.125 27.3259 19.125H30.783C31.7791 19.125 32.2478 18.6562 31.9548 17.6602C31.3103 15.668 26.9158 11.4492 26.6814 11.1562C26.1541 10.5117 26.3298 10.2188 26.6814 9.63281C26.6814 9.63281 30.9001 3.65625 31.3689 1.66406Z" fill="#7A7A7A"/>
+                                    </svg>
+                                 </a>
+                                 <a href="https://www.facebook.com/venarus/" class="footer-grid__link link-facebook" target="_blank">
+                                    <svg class="facebook-svg" width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path class="path-facebook" d="M24.4087 0.625H3.78369C2.20166 0.625 0.971191 1.91406 0.971191 3.4375V24.0625C0.971191 25.6445 2.20166 26.875 3.78369 26.875H11.811V17.9688H8.11963V13.75H11.811V10.5859C11.811 6.95312 13.979 4.90234 17.2603 4.90234C18.9009 4.90234 20.5415 5.19531 20.5415 5.19531V8.76953H18.7251C16.9087 8.76953 16.3228 9.88281 16.3228 11.0547V13.75H20.3657L19.7212 17.9688H16.3228V26.875H24.4087C25.9321 26.875 27.2212 25.6445 27.2212 24.0625V3.4375C27.2212 1.91406 25.9321 0.625 24.4087 0.625Z" fill="#7A7A7A"/>
+                                    </svg>                                 
+                                 </a>
+                                 <a href="" class="footer-grid__link link-twitter">
+                                    <svg class="twitter-svg" width="31" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path class="path-twitter" d="M27.8076 6.65625C28.9795 5.77734 30.0342 4.72266 30.8545 3.49219C29.7998 3.96094 28.5693 4.3125 27.3389 4.42969C28.6279 3.66797 29.5654 2.49609 30.0342 1.03125C28.8623 1.73438 27.5146 2.26172 26.167 2.55469C24.9951 1.32422 23.4131 0.621094 21.6553 0.621094C18.2568 0.621094 15.5029 3.375 15.5029 6.77344C15.5029 7.24219 15.5615 7.71094 15.6787 8.17969C10.5811 7.88672 6.01074 5.42578 2.96387 1.73438C2.43652 2.61328 2.14355 3.66797 2.14355 4.83984C2.14355 6.94922 3.19824 8.82422 4.89746 9.9375C3.90137 9.87891 2.90527 9.64453 2.08496 9.17578V9.23438C2.08496 12.2227 4.19434 14.6836 7.00684 15.2695C6.53809 15.3867 5.95215 15.5039 5.4248 15.5039C5.01465 15.5039 4.66309 15.4453 4.25293 15.3867C5.01465 17.8477 7.2998 19.6055 9.99512 19.6641C7.88574 21.3047 5.24902 22.3008 2.37793 22.3008C1.85059 22.3008 1.38184 22.2422 0.913086 22.1836C3.6084 23.9414 6.83105 24.9375 10.3467 24.9375C21.6553 24.9375 27.8076 15.6211 27.8076 7.47656C27.8076 7.18359 27.8076 6.94922 27.8076 6.65625Z" fill="#7A7A7A"/>
+                                    </svg>                                 
+                                 </a>
+                                 <a href="https://ok.ru/venarus?st.layer.cmd=PopLayerClose" class="footer-grid__link link-classmates" target="_blank">
+                                    <svg class="classmates-svg" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path class="path-classmates" d="M11.4625 9.17969C11.4625 10.4102 12.5172 11.4648 13.8063 11.4648C15.0367 11.4648 16.0914 10.4688 16.0914 9.17969C16.0914 7.83203 15.0367 6.83594 13.8063 6.83594C12.5172 6.83594 11.4625 7.83203 11.4625 9.17969ZM26.9313 3.4375C26.9313 1.91406 25.6422 0.625 24.1188 0.625H3.49377C1.91174 0.625 0.681274 1.91406 0.681274 3.4375V24.0625C0.681274 25.6445 1.91174 26.875 3.49377 26.875H24.1188C25.6422 26.875 26.9313 25.6445 26.9313 24.0625V3.4375ZM9.00159 9.17969C9.00159 6.54297 11.1696 4.375 13.8063 4.375C16.3844 4.375 18.5524 6.54297 18.5524 9.17969C18.5524 11.7578 16.3844 13.8672 13.8063 13.8672C11.1696 13.8672 9.00159 11.7578 9.00159 9.17969ZM19.2555 14.4531C19.7242 15.3906 19.1969 15.8594 17.9664 16.6211C16.9703 17.2656 15.6227 17.5 14.6852 17.6172L15.4469 18.3789L18.2594 21.1914C19.2555 22.2461 17.6149 23.8281 16.5602 22.832C15.8571 22.1289 14.861 21.1328 13.8063 20.0195L10.9938 22.832C9.93909 23.8281 8.29846 22.1875 9.35315 21.1914C10.0563 20.4297 11.0524 19.4336 12.1071 18.3789L12.8688 17.6172C11.9899 17.5 10.5836 17.2656 9.58752 16.6211C8.35706 15.8594 7.82971 15.3906 8.29846 14.4531C8.59143 13.9258 9.29456 13.457 10.2906 14.2773C10.2906 14.2773 11.6383 15.332 13.8063 15.332C15.9156 15.332 17.2633 14.2773 17.2633 14.2773C18.2594 13.457 18.9625 13.9258 19.2555 14.4531Z" fill="#7A7A7A"/>
+                                    </svg>                                 
+                                 </a>
+                              </div>   
+                           </div>
+                        </div>
+                        <div class="footer-grid__item contacts">
+                           <div class="footer-grid__conten">
+                              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%A8%D0%B0%D0%B1%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0,+31+%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5+11,+4+%D1%8D%D1%82%D0%B0%D0%B6,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+115162/@55.719404,37.6094253,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54b133eba5d55:0xe7bb04910ee9ac61!8m2!3d55.719404!4d37.611614" class="contacts__title contacts__map" target="_blank">
+                                 г. Москва, ул. Шаболовка, д. 31, стр. 11, 4 этаж 
+                              </a>
+                              <div class="contacts__title contacts__connection">
+                                 <p class="contacts__tel">
+                                    Телефон:
+                                 </p>
+                                 <a href="tel: +74955555555" class="contacts__title contacts__number">
+                                    +7 (495) 555-55-55
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="footer-grid__item creatorse">
+                           <div class="footer-grid__conten">
+                              <div class="creatorse__body">
+                                 <img class="creatorse__img" src="/Users/user/Desktop/ITSOFT/img/footer/logo/logo.svg" alt="">
+                                 <h3 class="creatorse__title">
+                                    Создание сайтов <br> Фарм-студия №1 в Рунете
+                                 </h3>   
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+   <script src="/Users/user/Desktop/ITSOFT/js/slick.min.js"></script>
+   <script src="/Users/user/Desktop/ITSOFT/js/production-slider.js"></script>
+   <script src="/Users/user/Desktop/ITSOFT/js/review-slider.js"></script>
+   <script src="/Users/user/Desktop/ITSOFT/js/video.js"></script>
+   <script src="/Users/user/Desktop/ITSOFT/js/menu-burger.js"></script>
+   <script src="/Users/user/Desktop/ITSOFT/js/scrol.js"></script>
+   <script src="/Users/user/Desktop/ITSOFT/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.purchase__conteiner {
+   .purchase__content {
+      .purchase__body {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: flex-start;
+         justify-content: left;
+         .purchase__text {
+            margin-top: 96px;
+            .purchase__title {
+               @extend %title__h2;
+               margin-bottom: 26px;
+            }
+            .purchase__subtitle {
+               @extend %subtitle__p;
+            }
+         }
+         .purchase__image {
+            .purchase__img {
+            }
+         }
+      }
+      .purchase__button {
+         display: flex;
+         justify-content: flex-end;
+         .purchase__btn {
+            .btn-violet {
+               border: 1px solid #47093E;
+               margin-left: 30px;
+               color: #47093E;
+               &:hover{
+                  background: #590d56;
+                  color: #FFFFFF;
+               }
+               .violet__link {
+               }
+            }
+         }
+      }
+   }
+}
+.purchase__fon{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 30px;
+}

@@ -1,0 +1,39 @@
+.production__conteiner {
+   .production__content {
+      padding-top: 350px;
+      .production__body {
+         @extend %flexCenter;
+         .production__text {
+            @extend %flexTop;
+            height: 310px;
+            .production__title {
+               @extend %title__h2;
+            }   
+         }
+         .production__gallery {
+            margin-left: auto;
+            .production__slider {
+               display: flex;
+               .production__slides {
+               }
+               .production__slides-img {
+               }   
+            }
+         }
+      }
+      .production__button {
+         display: flex;
+         .production__btn {
+            margin-left: auto;
+            .production__link {
+               .btn{
+                  &:hover{
+                     background: #FFFFFF;
+                     color: #590d56;
+                  }  
+               }
+            }
+         }
+      }  
+   }   
+}

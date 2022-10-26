@@ -1,0 +1,138 @@
+.footer {
+   position: relative;
+   margin-top: -130px;
+   background: #E5E5E5;
+   .footer__conteiner {
+      .footer__content {
+         .footer__text {
+            margin-bottom: 49px;
+            .footer__title {
+               @extend %font__Roboto;
+               font-weight: 400;
+               font-size: 31px;
+               line-height: 100%;
+               letter-spacing: 0.04em;
+               color: #540C50;
+               opacity: 0.8;
+            }
+         }
+         .footer__body {
+            .footer__grid {
+               width: 1140px;
+               height: 120px;
+               .footer-grid__body {
+                  display: grid;
+                  grid-template-columns: repeat(3, 1fr);
+                  grid-template-rows: 26px 41px;
+                  grid-template-areas: 
+                  "message cookies social"
+                  "message contacts creatorse";
+                  .footer-grid__item {
+                     .footer-grid__content {
+                        .footer-grid__title {
+                           @extend %footer__title-top;
+                           &:hover{
+                              text-decoration: underline;
+                           }
+                        }
+                     }
+                  }
+                  .message {
+                     grid-area: message;
+                  }
+                  .cookies {
+                     grid-area: cookies;
+                  }
+                  .social {
+                     grid-area: social;
+                     .footer-grid__social {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        .footer-grid__link {
+                           margin-right: 40px;
+                        }
+                        .link-vk {
+                           .vk-svg{
+                              .path-vk{
+                                 &:hover{
+                                    fill: #47093E;
+                                 }
+                              }
+                           }
+                        }
+                        .link-facebook {
+                           .facebook-svg{
+                              .path-facebook{
+                                 &:hover{
+                                    fill: #47093E;
+                                 }
+                              }
+                           }
+                        }
+                        .link-twitter {
+                           .twitter-svg{
+                              .path-twitter{
+                                 &:hover{
+                                    fill: #47093E;
+                                 }
+                              }
+                           }
+                        }
+                        .link-classmates {
+                           .classmates-svg{
+                              .path-classmates{
+                                 &:hover{
+                                    fill: #47093E;
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+                  .contacts {
+                     grid-area: contacts;
+                     margin-top: 33px;
+                     .contacts__title{
+                        @extend %footer__title-bottom;
+                     }
+                     .contacts__map{
+                        &:hover{
+                           text-decoration: underline;
+                        }
+                     }
+                     .contacts__connection{
+                        @extend %flexTop;
+                        .contacts__tel{
+                           padding-right: 2px;
+                        }
+                        .contacts__number{
+                           padding-left: 2px;
+                           &:hover{
+                              text-decoration: underline;
+                           }
+                        }
+                     }
+                  }
+                  .creatorse {
+                     grid-area: creatorse;
+                     margin-top: 33px;
+                     .creatorse__body{
+                        display: flex;
+                        justify-content: flex-start;
+                        .creatorse__img{
+                           margin-right: 15px;
+                        }
+                        .creatorse__title{
+                           @extend %footer__title-bottom;
+                        }
+   
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+

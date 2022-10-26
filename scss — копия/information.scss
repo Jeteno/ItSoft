@@ -1,0 +1,87 @@
+.information__conteiner {
+   .information__content {
+      padding-top: 270px;
+      .information__body {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: flex-start;
+         justify-content: space-between;
+         .information__text {
+            .information__title {
+               @extend %title__h2;
+               margin-bottom: 26px;
+            }
+            .information__subtitle {
+               @extend %subtitle__p;
+               color: #FFFFFF;
+            }
+         }
+         .information__grid {
+            width: 852px;
+            height: 459px;
+            .information-grid__body {
+               display: grid;
+               grid-template-columns: repeat(3, 1fr);
+               grid-template-rows: 263px 165px;
+               grid-template-areas: 
+               "item-1 item-2 item-3"
+               "item-1 item-4 item-4";
+               .information-grid__item {
+                  text-align: center;
+                  margin-left: 30px;
+                  @extend %title__h3;
+                  &:not(:first-child) {
+                     margin-bottom: 29px;
+                  }
+                  &:not(:last-child){
+                     margin-bottom: 29px;
+                  }
+                  &:hover{
+                     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                  }
+                  .information-grid__text {
+                     text-align: left;
+                     padding: 24px 21px;
+                     .information-grid__title {
+                     }
+                  } 
+                  }              
+               }  
+               .grid__item-1 {
+                  grid-area: item-1;
+                  background: url("/Users/user/Desktop/ITSOFT/img/information/info-block/foto-1.png") 0 0 / 100% no-repeat;
+               }  
+               .grid__item-2 {
+                  grid-area: item-2;
+                  background: url("/Users/user/Desktop/ITSOFT/img/information/info-block/foto-2.png") 0 0 / 100% no-repeat;
+               } 
+               .grid__item-3 {
+                  grid-area: item-3;
+                  background: url("/Users/user/Desktop/ITSOFT/img/information/info-block/foto-3.png") 0 0 / 100% no-repeat;
+               } 
+               .grid__item-4 {
+                  grid-area: item-4;
+                  background: #47093E;
+               } 
+         }         
+      }
+      .information__button {
+            display: flex;
+            .information__btn {
+               margin-left: auto;
+               .btn-violet{
+                  border: 1px solid #47093E;
+                  color: #47093E;
+                  &:hover{
+                     background: #590d56;
+                     color: #FFFFFF;
+                  }
+               }
+               .violet__link {
+               }
+            }
+      }
+   }
+}
+
+
